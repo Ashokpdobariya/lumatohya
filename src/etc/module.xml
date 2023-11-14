@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Zealous Commerce / qtyManager
+ * Copyright © Zealous Commerce. All rights reserved.
+ * This product is licensed per Magento install
+ * See https://hyva.io/license
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+	<module name="Hyva_lumatohyva">
+        <sequence>
+            <module name="Hyva_ThemeFallback"/>
+        </sequence>
+    </module>
+</config>

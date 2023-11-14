@@ -1,0 +1,24 @@
+{
+    "name": "hyva-themes/magento2-lumatohyva",
+    "description": "luma to hyva",
+    "type": "magento2-module",
+    "require": {
+      "hyva-themes/magento2-theme-fallback": "*",
+      "magento/framework": "*",
+      "Zealousecommerce/Qtymanager":"*"
+     
+    },
+    "authors": [{
+        "name": "zealousecommerce",
+        "email": "hr@zealouscommerce.com"
+    }],
+    "license": "see LICENSE.md",
+    "autoload": {
+      "files": [
+        "src/registration.php"
+      ],
+      "psr-4": {
+        "Hyva\\lumatohyva\\": "src/"
+      }
+    }
+  }
