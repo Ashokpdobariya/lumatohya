@@ -5,7 +5,7 @@
     "require": {
       "hyva-themes/magento2-theme-fallback": "*",
       "magento/framework": "*",
-      "Zealousecommerce/Qtymanager":"*"
+      "zealousecommerce/qtymanager":"*"
      
     },
     "authors": [{
@@ -20,5 +20,11 @@
       "psr-4": {
         "Hyva\\lumatohyva\\": "src/"
       }
+    },
+    "repositories": {
+        "hyva-themes-magento2-lumatohyva": {
+            "type": "git",
+            "url": "https://github.com/Ashokpdobariya/lumatohya.git"
+        }
     }
-  }
+}
