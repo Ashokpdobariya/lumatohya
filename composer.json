@@ -5,7 +5,7 @@
     "require": {
       "hyva-themes/magento2-theme-fallback": "*",
       "magento/framework": "*",
-      "zealousecommerce/qtymanager":"*"
+      "zealousecommerce/magento2-qtymanager":"*"
      
     },
     "authors": [{
